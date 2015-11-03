@@ -1,4 +1,4 @@
-# OpampBoostPedal
+# PedalBoardPowerSupply
 
 ## Description
-This is a simple cheap op-amp boost pedal meant for use with guitar [Include cutoff frequencies, gain, and phase shift here]. The form factor is intended to be very small. Included you will find the eagle files for the board, wiring diagrams, finished photos, pspice simulation files, and a bill of materials to estimate the total cost.
+This is a low-cost pedal board power supply for any standard pedal board requiring 9V. It supplies 9V to 8 ports and has a maximum current capacity of 500mA. It takes a standard US 120V input and the circuit is protected by a 5x20mm 250VAC 2A fuse.
