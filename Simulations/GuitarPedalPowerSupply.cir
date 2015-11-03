@@ -1,0 +1,25 @@
+Guitar Pedal Power Supply
+.LIB EVAL.LIB
+.LIB shindngn.LIB
+
+
+Vin 1 0 SIN(0V 169.7V 60HZ)
+
+RS 1 2 1
+L1 2 0 2000
+L2 3 0 22
+K L1 L2 0.9999
+
+X1 5 3 4 0 D2SBA60/SDG
+
+C1 5 4 470u
+*C2 5 4 100u 
+R1 5 4 1k 
+*R2 5 4 1.5meg
+*R2 3 0 1.5meg
+
+.MODEL D2SB60A D
+.TRAN 10us .5 0 10u
+.PROBE
+
+.END
