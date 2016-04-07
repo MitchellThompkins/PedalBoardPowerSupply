@@ -3,4 +3,4 @@ This is a low-cost pedal board power supply for any standard pedal board requiri
 
 ### Current revision of the PCB:
 
-<img src="Pictures/Eagle_PCB.png" width="150">
+<img src="Pictures/Eagle_PCB.png" width="250">
